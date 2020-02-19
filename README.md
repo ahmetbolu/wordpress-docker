@@ -1,4 +1,4 @@
-# Wordpress & Docker {Wordpress + MariaDB + PHPMyAdmin}
+# Wordpress & Docker
 
 
 Tek komut ile Wordpress'in en güncel son sürümünü MariaDB ve PHPMyAdmin ile beraber ayağa kaldırabilirsiniz.
@@ -10,29 +10,24 @@ Bu komut dosya içindeki servisleri ayarları ile beraber  (Wordpress, MariaDB y
 Not: Bilgisayarınızda Docker Uygulaması yüklü olması gerekmektedir: https://www.docker.com/get-started
 
 
-
 ## Projeyi başlatmak için komut: 
 Yapmanız gereken "docker-compose.yml" adlı dosyanın olduğu konumda aşağıdaki komutu çalıştamk.
 ```
 $ docker-compose up -d
 ```
-
 ## Projeyi durdurmak/sonlandırmak için komutlar:
 ```
 $ docker-compose stop 
 ```
-
-### Projeyi mevcut dosyaları ile tamamen kaldırmak için gerekli komut (kullanırken dikkatli olunuz):
+Projeyi mevcut dosyaları ile tamamen kaldırmak için gerekli komut (kullanırken dikkatli olunuz):
 ```
 $ docker-compose down --volumes
 ```
 
-
-Aşağıdaki kodu "docker-compose.yaml" adlı bir dosyaya ekleyin ve ilgili komutu çalıştırın
-
+Aşağıdaki kodu "docker-compose.yml" adlı bir dosyaya ekleyin ve ilgili komutu çalıştırın
 
 ```
-version: '3.7' # Docker Compose Versiyonu detay için: https://docs.docker.com/compose/compose-file/compose-versioning/
+version: '3.7' # Docker Compose Versiyonu
 
 services:
 
