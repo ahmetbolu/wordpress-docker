@@ -7,7 +7,9 @@ Aşağıdaki kodu "docker-compose.yaml" adlı bir dosyaya ekleyin ve ilgili komu
 
 Bu komut dosya içindeki servisleri ayarları ile beraber  (Wordpress, MariaDB ya da MySQL, PHPMyAdmin) kuracaktır.
 
-Not: Bilgisayarınızda Docker Uygulaması yüklü olması gerekmektedir: https://www.docker.com/get-started
+> Not: Bilgisayarınızda Docker Uygulaması yüklü olması gerekmektedir: https://www.docker.com/get-started
+
+
 
 
 ## Projeyi başlatmak için komut: 
