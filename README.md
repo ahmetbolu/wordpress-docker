@@ -3,7 +3,7 @@
 
 Tek komut ile Wordpress'in en güncel son sürümünü MariaDB ve PHPMyAdmin ile beraber ayağa kaldırabilirsiniz.
 
-Aşağıdaki kodu "docker-compose.yaml" adlı bir dosyaya ekleyin ve ilgili komutu çalıştırın
+Aşağıdaki kodu "docker-compose.yml" adlı bir dosyaya ekleyin ve ilgili komutu çalıştırın
 
 Bu komut dosya içindeki servisleri ayarları ile beraber  (Wordpress, MariaDB ya da MySQL, PHPMyAdmin) kuracaktır.
 
